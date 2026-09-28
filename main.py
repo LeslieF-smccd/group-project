@@ -15,11 +15,11 @@
 import guessing
 import rps
 
-print("*******************************************************************")
-print("*   Welcome to CIS-117 Assignment 6, Group Lab 1 - Games!         *")
-print("*   Code Developed by Group 6                                     *")
-print("*   Authors: Leslie Fong, Everett Carvalho                        *")
-print("*******************************************************************")
+print("***********************************************************************")
+print("*   Welcome to CIS-117 Assignment 6, Group Lab 1 - Games!             *")
+print("*   Code Developed by Group 6                                         *")
+print("*   Authors: Leslie Fong, Everett Carvalho                            *")
+print("***********************************************************************")
 
 print()
 print("There are 2 games to choose from to play.")
