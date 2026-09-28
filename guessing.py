@@ -150,9 +150,9 @@ def play_once_guessing(start=1, end=100, tries=5):
         return True
 
     if bailed:
-        print(f"Gave up early! The number was {solution}")
+        print(f"Gave up early. The number was {solution}")
     else:
-        print(f"Nope! You lost! The number was {solution}")
+        print(f"Nope! You lost. The number was {solution}")
     return False
 
 def play_game1(start = 1, end = 100, tries = 5):
