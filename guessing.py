@@ -89,7 +89,7 @@ def play_once_guessing(start=1, end=100, tries=5):
         You got it!
         Do you want to play again? (Y/N)
     --- done with the 2 play cycles examples  ---
-
+    
     Author: Leslie Fong
     """
     global game_one_plays
@@ -179,7 +179,7 @@ def play_game1(start = 1, end = 100, tries = 5):
     Return:
         int
             The number of times the game was won in this calls loop.
-
+    
     Author: Leslie Fong
     """
     global game_one_plays
