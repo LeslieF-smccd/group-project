@@ -1,7 +1,7 @@
 # Lab 1
 # Group 6
 # Authors: Leslie Fong
-# Date: September 23, 2026
+# Date: September 28, 2026
 
 # Implement a text input guessing game for finding a number randomly picked
 # from an integer "number" range. Suggested defaults are 1-100 {range(1,101)}
@@ -195,7 +195,10 @@ def play_game1(start = 1, end = 100, tries = 5):
         break
 
     game_one_plays = 0
-    print(f"\nYou won the game {score} times out of {plays}.")
+    time_s = 's'
+    if score == 1:
+        time_s = ''
+    print(f"\nYou won the game {score} time{time_s} out of {plays}.")
     return score
 
 # Testing of the game 1 export functions
